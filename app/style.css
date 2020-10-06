@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 60%;
+    width: 100%;
+    background-color: #AB88FF;
+}
+
+header img {
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
