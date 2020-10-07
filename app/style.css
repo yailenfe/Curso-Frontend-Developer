@@ -1,15 +1,59 @@
 body {
     margin: 0;
+    background-color: #6e36fc;
+    font-family: "Mulish", sans-serif;
 }
 
-header {
+.header {
     height: 60%;
-    width: 100%;
-    background-color: #AB88FF;
+    width: 100vw;
+    background-color: #6e36fc;
+    display: flex;
+    justify-content: space-between
 }
 
-header img {
-    width: 200px;
+.header__img {
+    width: 50px;
     margin-top: 10px;
     margin-left: 10px;
+}
+
+.header__menu {
+    margin-right: 60px;
+}
+.header__menu ul {
+    display: none;
+    list-style: none;
+    padding: 0px;
+    position: absolute;
+    width: 100px;
+    text-align: right;
+     margin: 0px 0px 0px -18px; 
+}
+.header__menu:hover ul,
+ul:hover {
+    display: block;
+}
+.header__menu li {
+    margin: 10px 0px;
+}
+.header__menu a {
+    color: white;
+    text-decoration: none;
+}
+.header__menu__profile {
+    width: 30px;
+    display: flex;
+}
+.header__menu__profile__img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.header__menu li a:hover{
+    text-decoration: underline;
+}
+.header__menu__profile p{
+padding-left: 10px;
+padding-right: 10px;
 }
